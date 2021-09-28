@@ -5,7 +5,7 @@ const Form = {
     },
     resetDoom(){
         document.getElementById("doom--descriptionInput").value = ''
-        document.getElementById("doom--moneyValue").value = 0.00
+        document.getElementById("doom--moneyValue").value = ''
         document.getElementById("doom--date").value = 0
     },
     getValues(){

@@ -10,7 +10,7 @@ let exits     = 0.00
                                                   //E na saída para que seja uma string com virgula
 function arrayRemove(arr, value){ 
   return arr.filter((ele)=>{ 
-      return ele != value; 
+      return ele !== value; 
   });
 }
 
@@ -45,7 +45,8 @@ load()
 document.getElementById('doom--form')
 .addEventListener("submit", e=>{
   e.preventDefault();
-  let [a, b, c] = Order.getValues()
+  let b = Order.getValues()
+  b = b[1]
   if(Number(b) > 0){appetizer+=Number(b)}
   else(exits-=Number(b))
   itens.push(Order.getValues())

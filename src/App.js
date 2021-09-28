@@ -30,7 +30,7 @@ function App({itens, appetizer, exits}) {
             ()=>{
             //document.getElementById("doom").style.visibility = 'visible' 
             document.getElementById("pelicula").style.visibility = 'visible'
-            }} href="#"
+            }} href="/#"
           >
             +Nova Transação
           </a>
