@@ -1,0 +1,47 @@
+.div--cartoes{
+  height: 540px
+}
+
+.card{
+    height: 180px;
+    width: inherit;
+    position: absolute;
+    background-color: white;
+  }
+  
+  .icon--card{
+    position: absolute;
+    right: 0px; top: 0px;
+    margin: 25px;
+  }
+  
+  .card--title{
+    font-weight: 400;
+    margin: 25px;
+  }
+  
+  .card--value{
+    margin-left: 25px;
+    font-weight: 700 bold;
+    font-size: 40px;
+  }
+  
+  .card--appetizers{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .card--exits{
+    margin-top: 180px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .allTransactions{
+    margin-top: 360px;
+    border-radius: 6px;
+    background-color: rgb(11, 160, 11);
+    color: white;
+  }
+  .icon--margin{
+    font-size: 40px;
+    font-weight: 100;
+  }

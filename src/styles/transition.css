@@ -1,0 +1,26 @@
+table{
+    margin: 0px 20px;
+    color: black;
+    font-weight: 300;
+    width: 100%;
+}
+
+th{
+    font-weight: 300;
+    height: 60px;
+    border-spacing: 0 0.5rem;
+    color: #969cb3;
+    background-color: #969cb30c;
+    text-align: left;
+}
+td{
+    height: 70px;
+    background-color: #7981a00c;
+}
+
+.marginNegative{
+    color: red;
+}
+.marginPositive{
+    color: lawngreen;
+}
